@@ -1,3 +1,56 @@
-[gd_scene format=3 uid="uid://dgjjltt2tfns0"]
+[gd_scene load_steps=6 format=3 uid="uid://dgjjltt2tfns0"]
 
-[node name="Node3D" type="Node3D"]
+[ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_s6dok"]
+[ext_resource type="Material" uid="uid://o0b4tbh6yup4" path="res://addons/character-controller/example/main/materials/rock.tres" id="2_4msxo"]
+[ext_resource type="PhysicsMaterial" uid="uid://bklf2cx3fydt3" path="res://addons/character-controller/example/main/physics/stone.tres" id="3_5fb3c"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_gjmho"]
+size = Vector3(8, 4, 4)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_t7and"]
+data = PackedVector3Array(-4, 2, 2, 4, 2, 2, -4, -2, 2, 4, 2, 2, 4, -2, 2, -4, -2, 2, 4, 2, -2, -4, 2, -2, 4, -2, -2, -4, 2, -2, -4, -2, -2, 4, -2, -2, 4, 2, 2, 4, 2, -2, 4, -2, 2, 4, 2, -2, 4, -2, -2, 4, -2, 2, -4, 2, -2, -4, 2, 2, -4, -2, -2, -4, 2, 2, -4, -2, 2, -4, -2, -2, 4, 2, 2, -4, 2, 2, 4, 2, -2, -4, 2, 2, -4, 2, -2, 4, 2, -2, -4, -2, 2, 4, -2, 2, -4, -2, -2, 4, -2, 2, 4, -2, -2, -4, -2, -2)
+
+[node name="Scene" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_s6dok")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.28644, 6.11809, 10.347)
+vertical_horizontal_ratio = 1
+jump_bob_enabled = false
+rotation_to_move = false
+
+[node name="Camera3D" type="Camera3D" parent="Player/Head/FirstPersonCameraReference" index="0"]
+
+[node name="Cube4" type="MeshInstance3D" parent="."]
+transform = Transform3D(29.1117, 0, 0, 0, 1, 0, 0, 0, 39.6434, -0.128227, -1.92674, -4)
+material_override = ExtResource("2_4msxo")
+mesh = SubResource("BoxMesh_gjmho")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Cube4"]
+physics_material_override = ExtResource("3_5fb3c")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cube4/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_t7and")
+
+[node name="Cube5" type="MeshInstance3D" parent="."]
+transform = Transform3D(4.32442, 0, 0, 0, 1, 0, 0, 0, 8.7216, -11.4099, -0.378246, -8.59802)
+material_override = ExtResource("2_4msxo")
+mesh = SubResource("BoxMesh_gjmho")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Cube5"]
+physics_material_override = ExtResource("3_5fb3c")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cube5/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_t7and")
+
+[node name="Cube6" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.42847, 0, 0, 0, 1.64447, 0, 0, 0, 3.86334, -11.4099, 3.44331, -8.59802)
+material_override = ExtResource("2_4msxo")
+mesh = SubResource("BoxMesh_gjmho")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Cube6"]
+physics_material_override = ExtResource("3_5fb3c")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cube6/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_t7and")
+
+[editable path="Player"]
