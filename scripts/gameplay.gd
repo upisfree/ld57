@@ -6,9 +6,8 @@ extends Node
 #		get_tree().reload_current_scene()
 
 func _input(event: InputEvent) -> void:
-	# уже есть в контроллах
-	#if event is InputEventMouseButton:
-	#	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	if event is InputEventMouseButton:
+		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	
 	# выход из игры		
 	if event.is_action_pressed("ui_cancel"):
