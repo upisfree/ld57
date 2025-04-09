@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://pjlu2g38ikav"
+path="res://.godot/imported/кондиционер 2.mp3-2d79232f274de3a909330487a4fa549b.mp3str"
+
+[deps]
+
+source_file="res://audios/кондиционер/кондиционер 2.mp3"
+dest_files=["res://.godot/imported/кондиционер 2.mp3-2d79232f274de3a909330487a4fa549b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

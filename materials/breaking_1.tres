@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://brgb3fgb7tqh5"]
+
+[ext_resource type="Texture2D" uid="uid://buyi523og4ua8" path="res://textures/breaking_2.png" id="1_qdopf"]
+
+[resource]
+transparency = 1
+albedo_color = Color(0.443137, 0.443137, 0.443137, 1)
+albedo_texture = ExtResource("1_qdopf")
+uv1_scale = Vector3(16.51, 16.51, 16.51)
+texture_filter = 0

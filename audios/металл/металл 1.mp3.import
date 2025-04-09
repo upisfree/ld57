@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://nm1cxq7amc4t"
+path="res://.godot/imported/металл 1.mp3-561127bb4f05e525ea91f9ef803633ef.mp3str"
+
+[deps]
+
+source_file="res://audios/металл/металл 1.mp3"
+dest_files=["res://.godot/imported/металл 1.mp3-561127bb4f05e525ea91f9ef803633ef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

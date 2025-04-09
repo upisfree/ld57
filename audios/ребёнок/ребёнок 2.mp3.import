@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bu7dhq3i5g4ry"
+path="res://.godot/imported/ребёнок 2.mp3-6bed1bca954eaad96fc3b3dd4d96bd0f.mp3str"
+
+[deps]
+
+source_file="res://audios/ребёнок/ребёнок 2.mp3"
+dest_files=["res://.godot/imported/ребёнок 2.mp3-6bed1bca954eaad96fc3b3dd4d96bd0f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -10,12 +10,16 @@ config_version=5
 
 [application]
 
-config/name="ld57"
+config/name="Detstvo — Ludum Dare №57"
+config/description="Detstvo.
+Hit everything you see with a stick. Just like when you were a kid. Made by Senya Pugach & Sava Pugach in two days in April 2025."
 run/main_scene="uid://dgjjltt2tfns0"
 config/features=PackedStringArray("4.4", "Forward Plus")
-boot_splash/bg_color=Color(0.866667, 0.690196, 0.752941, 1)
-boot_splash/show_image=false
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0.992157, 0.721569, 0.686275, 1)
+boot_splash/image="uid://wdvgucq1uot2"
+config/icon="uid://bv4s704tm2gyk"
+config/macos_native_icon="res://textures/icon.icns"
+config/windows_native_icon="res://textures/icon.ico"
 
 [autoload]
 
@@ -23,8 +27,8 @@ RaycastSystem="*res://scripts/raycast_system.gd"
 
 [display]
 
-window/size/viewport_width=2048
-window/size/viewport_height=1080
+window/size/viewport_width=2560
+window/size/viewport_height=1440
 window/size/mode=3
 
 [editor_plugins]
@@ -87,3 +91,9 @@ restart={
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":82,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
 ]
 }
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+textures/vram_compression/import_s3tc_bptc=true
+textures/vram_compression/import_etc2_astc=true

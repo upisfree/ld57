@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvvi4oana1lyj"
+path="res://.godot/imported/машина 2.mp3-cfd8fe8446e17db823066514c4cd02ea.mp3str"
+
+[deps]
+
+source_file="res://audios/машина/машина 2.mp3"
+dest_files=["res://.godot/imported/машина 2.mp3-cfd8fe8446e17db823066514c4cd02ea.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
