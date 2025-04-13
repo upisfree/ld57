@@ -27,7 +27,7 @@ If you try to build game for web, you will find that everything is very bright a
 1. Change renderer to Compatibility
 2. Adapt Environment glow intensity and glow bloom
 3. Adapt directional light intensity
-4. Move RayCast3D ray slightly to left
+4. Move RayCast3D ray slightly to the left
 
 ### How to build
 There's `mdl.glb` in Release page that you need to download and put into `mdl/` folder to build a game.
