@@ -1,4 +1,6 @@
-# Detstvo
+# ld57 — Detstvo
+A game “Detstvo” by “хорошие родители — это родители, которые не выдуманы” team.
+
 Hit everything you see with a stick. Just like when you were a kid.
 
 Made by Senya Pugach & Sava Pugach in two days in April 2025.
@@ -6,9 +8,19 @@ Made by Senya Pugach & Sava Pugach in two days in April 2025.
 ![](https://raw.githubusercontent.com/upisfree/ld57/refs/heads/master/textures/preview.png)
 
 ### Play
-[in browser](http://upisfr.ee/game/ld57/) or download for [Windows](https://github.com/upisfree/ld57/releases/download/v1.0.0/Windows.zip), [macOS](https://github.com/upisfree/ld57/releases/download/v1.0.0/macOS.zip).
+[in browser](http://upisfr.ee/game/ld57/) or download for [Windows](https://github.com/upisfree/ld57/releases/download/v1.0.0/DetstvoWindows.zip), [macOS](https://github.com/upisfree/ld57/releases/download/v1.0.0/DetstvoMacOS.zip).
 
 [Ludum Dare entry is here](https://ldjam.com/events/ludum-dare/57/detstvo).
+
+### Playthrough
+[![A Ludum Dare #57 game by Senya Pugach & Sava Pugach](http://img.youtube.com/vi/Vdocf1H_7w8/0.jpg)](https://youtu.be/Vdocf1H_7w8 "Detstvo")
+
+### Screenshots
+![](./screenshots/1.jpg)
+![](./screenshots/2.jpg)
+![](./screenshots/3.jpg)
+![](./screenshots/4.jpg)
+![](./screenshots/5.jpg)
 
 ### How to adapt game for web
 If you try to build game for web, you will find that everything is very bright and sometimes you don't click on objects. To fix this, do this:
