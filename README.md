@@ -12,6 +12,8 @@ Made by Senya Pugach & Sava Pugach in two days in April 2025.
 
 [Ludum Dare entry](https://ldjam.com/events/ludum-dare/57/detstvo).
 
+Better to play in native (Windows & macOS) versions — they have better graphics. Web version on Ludum Dare site has worse graphics. GitHub web build (on https://upisfr.ee/game/ld57) has the worst graphics due 100 mb GitHub limit per file.
+
 ### Playthrough
 [![A Ludum Dare #57 game by Senya Pugach & Sava Pugach](http://img.youtube.com/vi/Vdocf1H_7w8/0.jpg)](https://youtu.be/Vdocf1H_7w8 "Detstvo")
 
